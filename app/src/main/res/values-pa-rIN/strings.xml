@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ਆਧਾਰ ਡਾ .ਨਲੋਡ</string>
+
+    <string name="face">OTP ਤੋਂ ਬਿਨਾਂ ਆਧਾਰ ਡਾਉਨਲੋਡ ਕਰੋ</string>
+    <string name="e">ਈ-ਆਧਾਰ</string>
+    <string name="changeLanguage">ਭਾਸ਼ਾ ਬਦਲੋ</string>
+</resources>

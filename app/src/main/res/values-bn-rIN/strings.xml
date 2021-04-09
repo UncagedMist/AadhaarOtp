@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">আধার ডাউনলোড</string>
+
+    <string name="face">ওটিপি ছাড়াই আধার ডাউনলোড করুন</string>
+    <string name="e">ই-আধার</string>
+    <string name="changeLanguage">ভাষা পরিবর্তন করুন</string>
+</resources>

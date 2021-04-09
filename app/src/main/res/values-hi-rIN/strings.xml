@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">आधार डाउनलोड</string>
+
+    <string name="face">आधार को बिना ओटीपी के डाउनलोड करें</string>
+    <string name="e">ई-आधार</string>
+    <string name="changeLanguage">भाषा बदलो</string>
+</resources>

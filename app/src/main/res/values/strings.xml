@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Download Aadhaar</string>
+
+    <string name="face">Download Aadhaar Without OTP</string>
+    <string name="e">E-Aadhaar</string>
+    <string name="changeLanguage">Change Language</string>
+</resources>

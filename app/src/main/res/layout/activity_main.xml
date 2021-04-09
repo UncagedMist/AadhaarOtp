@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_bg"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/aboveBanner"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-7920815986886474/5022698523"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_below="@id/aboveBanner"
+            android:id="@+id/image"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_width="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            app:civ_border_color="#FFF"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFace"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/face"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_bg"
+            android:textSize="30sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnWin"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/btnFace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Play Win Coins Daily"
+            android:drawableLeft="@drawable/win"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_bg"
+            android:textSize="30sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnE"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/btnWin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/e"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_bg"
+            android:textSize="30sp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnChange"
+            android:layout_below="@id/btnE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/changeLanguage"
+            android:textColor="#FFFFFF"
+            android:layout_margin="30dp"
+            android:background="@drawable/button_bg"
+            android:textSize="25sp" />
+
+        <com.google.android.gms.ads.AdView
+            android:layout_below="@id/btnChange"
+            android:id="@+id/belowBanner"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-7920815986886474/5022698523"/>
+
+    </RelativeLayout>
+
+</ScrollView>
